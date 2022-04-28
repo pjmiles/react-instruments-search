@@ -26,7 +26,7 @@ const FunctionSearch = () => {
              <div className="search">
                 <input type="text" 
                     id="search-box" 
-                    placeholder="search for image"
+                    placeholder="search here"
                     value={filter}
                     onChange={searchText.bind(this)} 
                     />
