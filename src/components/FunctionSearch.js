@@ -9,7 +9,6 @@ const FunctionSearch = () => {
     const searchText = (event) => {
         setFilter(event.target.value);
     }
-    console.warn(filter)
 
     let imageSearch = Images.imageData.filter(item =>{
         return Object.keys(item).some(key =>
@@ -36,14 +35,17 @@ const FunctionSearch = () => {
             {imageSearch.map((item, index) =>{
                 return(
                     <div className='image-container'>
-                    <div className='image'>
-                    <img src={item.img} alt='instr'/>
-                    <h3>{item.title}</h3>
-                    <p>{item.desc}</p>
+                        <div className='image'>
+                        <img src={item.img} alt='instr'/>
+                        <h3>{item.title}</h3>
+                        <p>{item.desc}</p>
                     </div>
                 </div> 
                 )
-            })}      
+            })}
+            <div className="footer-section">
+            <footer id="foot">Designed with &#10084; by <a href="https://github.com/pjmiles/react-instruments-search" target="_blank">PonmileJames</a></footer>
+            </div>      
         </div>
     )
 

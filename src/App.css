@@ -53,9 +53,15 @@ body {
   font-size: 20px;
 }
 
+#foot {
+  font-size: 20px;
+  background-color: #c4c2c2;
+  font-family: fantasy;
+}
+
 @media(max-width: 768px) {
   .container #search-box {
-      width: 80%;
+      width: 70%;
   }
 }
 
