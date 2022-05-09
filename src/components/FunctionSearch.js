@@ -52,6 +52,7 @@ const FunctionSearch = () => {
           <a
             href="https://github.com/pjmiles/react-instruments-search"
             target="_blank"
+            rel="noreferrer"
           >
             PonmileJames
           </a>
