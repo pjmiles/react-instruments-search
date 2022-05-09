@@ -29,9 +29,10 @@ body {
 
 .image-container {
   display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
   justify-content: center;
-  padding: 20px;
-  gap: 20px;
 }
 
 .image-container .image {

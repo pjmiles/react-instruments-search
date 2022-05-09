@@ -142,7 +142,7 @@ const Images = {
       title: "Slit",
       desc: "Percusion",
     },
-  ],
+  ]
 };
 
 export default Images;
